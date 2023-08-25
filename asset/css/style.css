@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
 }
 :root{
     --orange:orange;
+    --green:green;
+ 
 }
 .targetWholeNavBar{
     background-color:transparent;
@@ -18,14 +23,18 @@
  transition: all 1s;
 
 }
+/* target text link on av bar */
 .nav-link{
-    color: black;
+    color: white;
+    font-size: 20px;
+    margin: 0px 5px;
 }
 .targetWholeNavBar:hover{
     background-color: var(--orange);
 }
 .custumClass-BigHero{
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
@@ -41,7 +50,7 @@ object-fit: cover;
 /* below target text on big hero goodness --child*/
 .carousel-caption{
 position: absolute;
-top: 30%;
+top: 20%;
 left: 10%;
 
 width: 20%;
@@ -56,4 +65,33 @@ text-align: left;
 /* parent  carousal item*/
 .carousel-item{
 position: relative;
+/* parent */
 }
+
+.buttonCourasel{
+    background-color:var(--green);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 20px;
+   
+}
+.section2{
+    background-color: aqua;
+    margin-top: 330px;
+    text-align: center;
+    height: 50vh;
+  
+}
+
+.section2 h5{
+    margin-bottom: 15px;
+}
+.section2 h2{
+    margin-bottom: 15px;
+}
+.section2  p{
+    margin-bottom: 15px;
+}
+
