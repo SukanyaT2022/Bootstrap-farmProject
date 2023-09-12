@@ -158,7 +158,26 @@ h2 {
 
 /* footer */
 footer{
+background-color: black;
+}
+.logoSection img{
+  width: 40%;
+}
+.middleSection-footer{
+color: white;
+}
+/* remove dot dot */
+.middleSection-footer ul{
+  list-style: none;
 
+}
+/* remove underline from a tag */
+.middleSection-footer a{
+  text-decoration: none;
+  color: white;
+}
+.middleSection-footer ul li{
+margin: 5px 0px;
 }
 
 
