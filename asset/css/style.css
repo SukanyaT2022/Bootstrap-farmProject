@@ -51,7 +51,6 @@ h5 {
   position: absolute;
   top: 40%;
   left: 10%;
-
   width: 25%;
   text-align: left;
 }
@@ -182,6 +181,10 @@ footer {
   text-decoration: none;
   color: white;
 }
+
+.middleSection-footer a:hover{
+color:yellow;
+}
 .middleSection-footer ul li {
   margin: 5px 0px;
 }
@@ -202,3 +205,4 @@ footer {
   align-items: flex-start;
   padding-top: 30px;
 }
+
