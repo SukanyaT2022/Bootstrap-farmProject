@@ -39,3 +39,23 @@ width: 100%;
 height: 400px;
 object-fit: cover;
 }
+.mainBox-whatwedo{
+width: 100%;
+height:400px ;
+background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+display: flex;
+align-items: center;
+
+
+
+}
+.h1WhatWeDo{
+    font-size: 50px;
+    color: white;
+    padding-left: 400px;
+
+
+}
