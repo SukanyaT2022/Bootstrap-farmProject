@@ -7,27 +7,28 @@ html, body{
     overflow-x: hidden;
 }
 
-
 .bigHero-AboutUs{
     margin-top: -200px;
     width: 100%;
     height: 70vh;
-    background-image: url('https://images.pexels.com/photos/3554584/pexels-photo-3554584.png?auto=compress&cs=tinysrgb&w=800');
+    background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .whoWeAre{
    text-align: center; 
-   height: 50vh;
-   background-color: green;
+   height: 60vh;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-
+   background-color: #fae4cc;
 }
 .whoWeAre p{
     width: 40%;
+}
+.mainBox-section2{
+   height: 60vh;
 }
 
 .section2Text{
@@ -52,7 +53,7 @@ object-fit: cover;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
 }
-.mainBox-whatwedo{
+/* .mainBox-whatwedo{
 width: 100%;
 height:400px ;
 background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
@@ -68,14 +69,17 @@ align-items: center;
     color: white;
     padding-left: 400px;
 
-}
+} */
 
 /* section 3 values */
 .mainBoxValue {
-
+padding: 30px 30px 60px  30px;
+background-color: #fae4cc;
 }
-
-
+.targetH2-section4{
+margin-top: 40px;
+text-align: center;
+}
 
 .targetDiamondLogo{
 width: 60px;
@@ -90,8 +94,26 @@ color: white;
 margin: 20px 0px;
 }
 .targeHeartLogo{
-
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    margin: 20px 0px;
 }
 .targetFireLogo{
-
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color:darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    margin: 20px 0px;
 }
