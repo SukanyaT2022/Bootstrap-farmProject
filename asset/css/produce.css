@@ -2,7 +2,63 @@
     margin-top: -200px;
     width: 100%;
     height: 70vh;
-    background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
-background-repeat: no-repeat;
-background-size: cover;  
+   background-color:#01a16c;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+}
+
+.bighero-products h1{
+    font-size: 50px;
+}
+
+.wrapper{
+    background-image: url('https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JhbmdlJTIwZnJ1aXR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=800&q=60');
+    width: 70%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* relative is parent */
+    margin: auto;
+ margin-top: -150px;
+ z-index: 1;
+}
+
+/* smallBoxes inside background */
+
+.firstSection{
+width: 300px;
+background-color: blueviolet;
+}
+.orangeBoxSection{
+width: 300px;
+background-color: white;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.orangeBoxSection img{
+    width: 50%;
+}
+.orangeDrink{
+width: 300px;
+position: absolute;
+top: 0;
+right: 0;
+
+}
+.orangeDrink img{
+    width: 100%;
+    
+}
+.blackText{
+width: 300px;
+background-color: red;
+position: absolute;
+bottom: 0;
+right: 0;
+
 }
