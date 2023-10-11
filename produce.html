@@ -105,11 +105,24 @@
   <h4>Jewel of the Orange</h4>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, sed! Ad, adipisci autem? Excepturi laborum neque maxime voluptatibus tenetur impedit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, sed! Ad, adipisci autem? Excepturi laborum neque maxime voluptatibus tenetur impedit?</p>
 </div>
-
-
-
-
 </div>
+
+<!-- start honey orange section slide -->
+<!-- wrapAround true make last slide next to first slider make it infinity -->
+<div class="carousel" data-flickity='{ "groupCells": 2, "wrapAround":true, "fade":true}'>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+</div>
+<!-- end honey orange section slide -->
 
 
   <!--start  footer -->
@@ -144,6 +157,19 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
+  <!-- jquery code for slide / remove main out of carousel-->
+  <script>
+
+$('.carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  wrapAround: true,
+  fade: true
+  // wraparound when it go to past slide it ga back to the first slide again
+});
+
+  </script>
   
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
