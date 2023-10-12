@@ -13,7 +13,7 @@
 .bighero-products h1 {
   font-size: 50px;
 }
-
+/* section 1 mix images and  boxes */
 .wrapper {
   background-image: url('https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JhbmdlJTIwZnJ1aXR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=800&q=60');
   width: 70%;
@@ -82,30 +82,61 @@
 }
 
 /* slider honey orange css */
+.wrapper-carousel{
+  width: 70%;
+  margin: auto;
+  height: 500px;
+  margin-top: 100px;
+  
+}
 .carousel {
     background: #EEE;
   }
   
   .carousel-cell {
-    width: 28%;
-    height: 200px;
+    width: 50%;
+    height: 400px;
     margin-right: 10px;
-    background: #8C8;
+
     border-radius: 5px;
     counter-increment: carousel-cell;
   }
-  
-  .carousel-cell.is-selected {
-    background: #ED2;
+  .controlTextCarousel{
+    padding: 50px;
   }
-  
-  /* cell number */
-  .carousel-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(carousel-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
+  .controlImageCarousel img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
-  
+
+  /* carousel button */
+  .flickity-button-icon {
+  fill: darkgreen!important;
+}
+.flickity-page-dots .dot.is-selected {
+  background:darkgreen!important;
+}
+
+/* end courausel */
+
+/* start section 3 - freshCut */
+
+  .mainSec3FreshCut{
+background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+width: 70%;
+margin: auto;
+text-align: center;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 2px solid red;
+  }
+
+
+ 
