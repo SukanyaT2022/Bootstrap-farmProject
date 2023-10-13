@@ -16,6 +16,9 @@ h5 {
   --orange: orange;
   --green: green;
 }
+.dropdown-menu{
+  background-color: transparent;
+}
 .targetWholeNavBar {
   background-color: transparent;
   border-bottom-left-radius: 50%;

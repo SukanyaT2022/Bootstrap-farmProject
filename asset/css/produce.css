@@ -135,7 +135,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-border: 2px solid red;
+
+  }
+  .mainSec3FreshCut p{
+    width: 50%;
   }
 
 
