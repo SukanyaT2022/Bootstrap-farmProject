@@ -17,8 +17,14 @@ h5 {
   --green: green;
 }
 .dropdown-menu{
-  background-color: transparent;
+  background-color: orange;
+  border: none;
 }
+.dropdown-item:hover{
+background-color: orange;
+color: white;
+}
+
 .targetWholeNavBar {
   background-color: transparent;
   border-bottom-left-radius: 50%;
@@ -35,9 +41,12 @@ h5 {
   font-size: 20px;
   margin: 0px 5px;
 }
-.targetWholeNavBar:hover {
-  background-color: var(--orange);
+.nav-link:hover {
+  color: var(--orange);
 }
+/* .targetWholeNavBar:hover {
+  background-color: var(--orange);
+} */
 .custumClass-BigHero {
   margin-top: -200px;
   width: 100%;
