@@ -238,10 +238,17 @@ color:yellow;
     position: relative;
     z-index: 10;
     padding-left: 30px;
-    transition: all 1s;
+  
     height: auto;
    
   } 
+  .carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    width: 40%;
+  }
 }
 
 /* phone */
