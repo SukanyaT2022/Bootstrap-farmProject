@@ -182,7 +182,7 @@ color: white;
 /* footer */
 footer {
   background-color: #2c2c2c;
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 .logoSection img {
   width: 40%;
@@ -227,6 +227,16 @@ color:yellow;
   align-items: flex-start;
   padding-top: 30px;
 }
+/* copyRight */
+footer small{
+  color: white;
+text-align: center;
+display: block;
+margin-left: -60px;
+margin-top: 30px;
+border-top: 1px solid white;
+padding-top: 20px;
+}
 
 /* medium device */
 @media screen and (max-width:990px) {
@@ -238,7 +248,6 @@ color:yellow;
     position: relative;
     z-index: 10;
     padding-left: 30px;
-  
     height: auto;
    
   } 
@@ -249,9 +258,58 @@ color:yellow;
   .carousel-caption {
     width: 40%;
   }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+ color: white;
+ opacity: 1;
+    margin-top: 100px;
+  }
+  .section2 {
+    height: 20vh;
+  }
+  .movie iframe {
+    width: 80%;
+    height: 50vh;
+  }
+  .boxOverLap {
+    width: 90%;
+  }
+  .targetEachCol img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .targetrecycleImg {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .section3FullImage {
+    height: 50vh;
+  }
+  .mainSection4 {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  .logoSection img {
+    width: 30%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  .mainBoxSocial {
+    padding-left: 60px;
+  padding-top: 10px;
+  }
 }
 
 /* phone */
 @media screen and (max-width:600px) {
+  /* hamberger dropdown menu */
+  .fa-bars{
+font-size: 35px;
+  }
+  .targetLogo img {
+    width: 100px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+  }
   
 }
