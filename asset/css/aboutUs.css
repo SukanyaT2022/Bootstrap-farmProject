@@ -117,3 +117,32 @@ margin: 20px 0px;
     color: white;
     margin: 20px 0px;
 }
+/* ipad */
+@media screen  and (max-width:990px){
+    
+    .bigHero-AboutUs{
+        height: 60vh;
+        background-size: cover;
+        background-position: top right;
+    } 
+    .whoWeAre{
+        height: 30vh;
+        text-align: left;
+     }
+   
+     .whoWeAre p{
+        width: 70%;
+    }
+    .mainBox-section2{
+        height: 35vh;
+     }
+     .targetH2-section4{
+        font-size: 35px;
+      
+     }
+
+}
+/* phone */
+@media screen  and (max-width:990px){
+    
+}
