@@ -129,7 +129,6 @@ margin: 20px 0px;
         height: 30vh;
         text-align: left;
      }
-   
      .whoWeAre p{
         width: 70%;
     }
@@ -143,6 +142,30 @@ margin: 20px 0px;
 
 }
 /* phone */
-@media screen  and (max-width:990px){
-    
+@media screen  and (max-width:600px){
+    .whoWeAre{
+        height: 40vh;
+        text-align: left;
+     }
+     .mainBox-section2{
+        height: auto;
+        margin-top: 50px;
+     }
+     .targetDiamondLogo{
+        margin: auto;
+        }
+        .targeHeartLogo{
+            margin: auto;
+        }
+        .targetFireLogo{
+            margin: auto;
+        }
+        .mainBoxValue h3{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .targetH2-section4{
+            margin-bottom: 40px;
+       
+            }
 }

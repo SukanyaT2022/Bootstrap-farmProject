@@ -29,7 +29,6 @@
 }
 
 /* smallBoxes inside background */
-
 .firstSection {
   width: 500px;
   padding: 80px 0px 0px 80px;
@@ -97,7 +96,6 @@
     width: 50%;
     height: 400px;
     margin-right: 10px;
-
     border-radius: 5px;
     counter-increment: carousel-cell;
   }
@@ -140,6 +138,49 @@ flex-direction: column;
   .mainSec3FreshCut p{
     width: 50%;
   }
+/* ipad */
+@media screen and (max-width:990px) {
+  .bighero-products {
+    height: 60vh;
+  }
+  .wrapper {
+    width: 90%;
+    margin-top: -250px;
+  }
+  .firstSection {
+    width: 500px;
+    padding: 80px 0px 0px 60px;
+  }
+  /* slider honey orange css */
+.wrapper-carousel{
+  width: 90%; 
+}
+.mainSec3FreshCut{
+  width: 90%;
 
-
- 
+    }
+}
+ /* iphone */
+ @media screen and (max-width:600px) {
+  .wrapper {
+  display: none;
+  }
+  .bighero-products {
+text-align: center;
+padding: 0px 20px;
+  }
+  .bighero-products h1 {
+    font-size: 30px;
+    margin-top: 140px;
+  }
+  .carousel-cell {
+    width:100%;
+  }
+  .mainSec3FreshCut{
+    height: 350px;
+  }
+  .mainSec3FreshCut p{
+    width: 70%;
+  }
+  
+ }
