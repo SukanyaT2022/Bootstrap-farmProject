@@ -60,3 +60,46 @@
 .contactForm textarea {
   background-color: #f4f6f6;
 }
+/* ipad */
+@media screen and (max-width: 990px){
+  .bighero-contact {
+    height: 50vh;
+  }
+  .bighero-contact h1 {
+  margin-top: 150px;
+  }
+  .mainContact {
+    width: 95%;
+  }
+  .contactInfo {
+    width: 45%;
+    height: 500px;
+
+  }
+  .contactForm {
+    width: 40%;
+  }
+}
+
+/* iphone */
+@media screen and (max-width: 600px){
+  .bighero-contact {
+    height: 50vh;
+  }
+  .bighero-contact h1 {
+    font-size: 40px;
+  }
+  .mainContact {
+    flex-direction: column;
+  }
+  .contactInfo {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-top: 20px;
+
+  }
+  .contactForm {
+    width: 100%;
+  }
+}

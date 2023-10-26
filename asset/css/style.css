@@ -298,6 +298,13 @@ footer small {
     padding-left: 60px;
     padding-top: 10px;
   }
+  .nav-link:hover {
+    color: var(--green);
+  }
+  .dropdown-item{
+    font-size: 20px;
+    color: white;
+  }
 }
 
 /* phone */

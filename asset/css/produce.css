@@ -174,7 +174,7 @@ padding: 0px 20px;
     margin-top: 140px;
   }
   .carousel-cell {
-    width:100%;
+    width: 103%!important;
   }
   .mainSec3FreshCut{
     height: 350px;
