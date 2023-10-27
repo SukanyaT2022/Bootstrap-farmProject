@@ -79,6 +79,10 @@
   border: none;
   border-radius: 30px;
 }
+/* this h2 show only phone size and hid fro big device */
+.controlH2Honey_OceanOrange{
+display: none;
+}
 
 /* slider honey orange css */
 .wrapper-carousel{
@@ -159,6 +163,7 @@ flex-direction: column;
   width: 90%;
 
     }
+
 }
  /* iphone */
  @media screen and (max-width:600px) {
@@ -182,5 +187,29 @@ padding: 0px 20px;
   .mainSec3FreshCut p{
     width: 70%;
   }
-  
+
+  #honeyOrangeSection{
+    background-image: url("https://images.unsplash.com/photo-1607781143315-c87bebec1452?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
+height:350px ;
+background-size: cover;
+margin-bottom:100px;
+margin-top: 0px;
+  }
+  #OceanOrange{
+background-image: url("https://cdn.pixabay.com/photo/2022/12/21/12/33/orange-7669963_1280.jpg");
+height:350px ;
+background-size: cover;
+margin-bottom: 20px;
+margin-top: 0px;
+  }
+
+.carousel {
+display: none;
+  }
+  .controlH2Honey_OceanOrange{
+    text-align: center;
+    margin: 30px 0px;
+    display: block;
+    /* dispaly block means unhide from display none */
+  }
  }
