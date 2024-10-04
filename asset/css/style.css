@@ -21,6 +21,14 @@ h5 {
   --green: green;
 }
 
+/* color pallete */
+/* blue #9ED2DB */
+/* orange #ED950B */
+/* yellow #EEC744 */
+/* light green #578824 */
+/* dark green #11480A */
+
+
 /* hanberger drop down menu */
 
 .fa-bars {
@@ -172,6 +180,28 @@ h5 {
   width: 40%;
   margin: 30px auto;
 }
+
+/* accordion section  */
+.mainFQASection h2{
+  text-align: center;
+  padding: 20px 0px;
+
+}
+.mainFQASection button{
+  background-color: #9ED2DB!important;
+}
+
+/* remove cell around FQA below */
+.mainFQASection button:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  }
+.accordion-item{
+  border: none;
+}
+
+
 /* 3 gridBox section 4 */
 .customClassCol img {
   width: 100%;
