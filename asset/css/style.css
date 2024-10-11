@@ -82,7 +82,7 @@ h5 {
   position: absolute;
   top: 40%;
   left: 10%;
-  width: 25%;
+  width: 35%;
   text-align: left;
 }
 .carousel-caption h5 {
@@ -123,7 +123,10 @@ h5 {
 }
 .section2 p {
   margin-bottom: 15px;
+  width: 70%;
 }
+
+/* section movie */
 .movie iframe {
   width: 70%;
   height: 60vh;
@@ -141,6 +144,7 @@ h5 {
 }
 
 .boxOverLap {
+  padding: 20px 30px;
   width: 70%;
   height: 300px;
   background-color: white;
@@ -157,6 +161,8 @@ h5 {
 .targetEachCol img {
   width: 120px;
   height: 120px;
+  display: block;
+  margin: auto;
 }
 .targetEachCol {
   display: flex;
@@ -167,17 +173,17 @@ h5 {
 .targetrecycleImg {
   width: 80px !important;
   height: 80px !important;
-  margin-top: 20px;
-  margin-right: 10px;
-}
+margin-top: 20px!important;
+margin-bottom: 20px !important;
 
+}
 /* section4 3 gridBox */
 .mainSection4 {
   text-align: center;
   padding: 80px 0px;
 }
 .mainSection4 p {
-  width: 40%;
+  width: 70%;
   margin: 30px auto;
 }
 
@@ -187,9 +193,9 @@ h5 {
   padding: 20px 0px;
 
 }
-.mainFQASection button{
-  background-color: #9ED2DB!important;
-}
+/* .accordion-button{
+  background-color:!important;
+} */
 
 /* remove cell around FQA below */
 .mainFQASection button:focus{
@@ -200,7 +206,24 @@ h5 {
 .accordion-item{
   border: none;
 }
+#accordionExample{
+  color: green;
+}
 
+/* accordiaon collap and not collape change text color on the long button */
+
+    .accordion-button.collapsed {
+      background-color: #EDDCC0; /* Desired background color when collapsed */
+      color: #4e2e0f;              /* Desired text color when collapsed */
+      border: none;              /* Optional: remove border */
+    }
+    
+    /* Change the background and text color when the accordion is expanded */
+    .accordion-button:not(.collapsed) {
+      background-color: #EDDCC0; /* Desired background color when expanded */
+      color: green;              /* Desired text color when expanded */
+      border: none;              /* Optional: remove border */
+    }
 
 /* 3 gridBox section 4 */
 .customClassCol img {
@@ -210,7 +233,7 @@ h5 {
 }
 /* text answer accordion */
 .accordion-collapse{
-  color:pink;
+  color:black;
 }
 
 
@@ -245,6 +268,10 @@ footer {
 .middleSection-footer ul li {
   margin: 5px 0px;
 }
+
+.middleSection-footer h2 {
+text-align: left;
+} 
 .targetSocialIcon {
   color: black;
   font-size: 20px;
@@ -273,6 +300,25 @@ footer small {
   padding-top: 20px;
 }
 
+/* ipad pro */
+@media screen and (max-width: 1024px) {
+  /* big hero slide */
+  .carousel-caption {
+    width: 40%;
+  }
+  .carousel-item img {
+    height: 50vh;
+  }
+  /* section 2 text celebrate */
+  .section2 {
+    height: 30vh;
+  }
+  .movie iframe {
+    height: 40vh;
+  }
+  }
+
+
 /* medium device */
 @media screen and (max-width: 990px) {
   .targetWholeNavBar {
@@ -289,8 +335,9 @@ footer small {
     height: 60vh;
     object-fit: cover;
   }
+  /* hide text on slider when on ipad and iphone size */
   .carousel-caption {
-    width: 40%;
+display: none;
   }
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
@@ -364,6 +411,7 @@ footer small {
     margin-bottom: 15px;
     font-size: 20px;
   }
+ 
   /* learn more button */
   .section2 button {
     padding: 10px 20px;
