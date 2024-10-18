@@ -80,13 +80,16 @@ h5 {
 /* below target text on big hero goodness --child*/
 .carousel-caption {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 10%;
-  width: 35%;
+  width: 45%;
   text-align: left;
 }
-.carousel-caption h5 {
-  font-size: 40px;
+.carousel-caption h1 {
+  font-size: 30px;
+}
+.carousel-caption h2 {
+  font-size: 30px;
 }
 .carousel-caption p {
   font-size: 20px;
@@ -305,10 +308,10 @@ footer small {
 @media screen and (max-width: 1024px) {
   /* big hero slide */
   .carousel-caption {
-    width: 40%;
+display: none;
   }
   .carousel-item img {
-    height: 50vh;
+    height: 40vh;
   }
   /* section 2 text celebrate */
   .section2 {
@@ -324,7 +327,20 @@ footer small {
     margin: 0;
   
   }
+  .section2 {
+    height: 25vh;
   }
+  .section3FullImage {
+   
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    position: relative;
+  }
+  
+}
 
 
 /* medium device */
