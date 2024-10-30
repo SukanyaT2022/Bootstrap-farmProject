@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+.bigHero-AboutUs {
+  margin-top: -200px;
+  padding-top: 40vh;
+  color: white;
+  text-align: center;
+
+  width: 100%;
+  height: 80vh;
+  background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bigHero-AboutUs h1 {
+  font-size: 30px;
+}
+.whoWeAre {
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fae4cc;
+}
+.whoWeAre p {
+  width: 60%;
+  text-align: justify;
+}
+.whoWeAre h2 {
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* our mission section */
+.mainBox-section2 {
+  height: 60vh;
+
+}
+
+.section2Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+
+}
+.section2Text h3 {
+    align-self: flex-start;
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.section2Text p {
+  width: 90%;
+text-align: justify;
+
+}
+.targetImage {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.targetImage img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/* .mainBox-whatwedo{
+width: 100%;
+height:400px ;
+background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+display: flex;
+align-items: center;
+
+}
+.h1WhatWeDo{
+    font-size: 50px;
+    color: white;
+    padding-left: 400px;
+
+} */
+
+/* section 3 values */
+.mainBoxValue {
+  padding: 30px 30px 60px 30px;
+  background-color: #fae4cc;
+}
+.mainBoxValue h3{
+font-size: 25px;
+
+}
+.targetH2-section4 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.targetDiamondLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  margin: 20px 0px;
+}
+.targeHeartLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  margin: 20px 0px;
+}
+.targetFireLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  margin: 20px 0px;
+}
+/* ipad */
+@media screen and (max-width: 990px) {
+  .bigHero-AboutUs {
+    height: 60vh;
+    background-size: cover;
+    background-position: top right;
+  }
+  .whoWeAre {
+    height: 30vh;
+    text-align: left;
+  }
+  .whoWeAre p {
+    width: 70%;
+  }
+  .mainBox-section2 {
+    height: 35vh;
+  }
+  .targetH2-section4 {
+    font-size: 35px;
+  }
+}
+/* phone */
+@media screen and (max-width: 600px) {
+  .whoWeAre {
+    height: 40vh;
+    text-align: left;
+  }
+  .mainBox-section2 {
+    height: auto;
+    margin-top: 50px;
+  }
+  .targetDiamondLogo {
+    margin: auto;
+  }
+  .targeHeartLogo {
+    margin: auto;
+  }
+  .targetFireLogo {
+    margin: auto;
+  }
+  .mainBoxValue h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .targetH2-section4 {
+    margin-bottom: 40px;
+  }
+}

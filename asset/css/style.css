@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+:root {
+  --orange: orange;
+  --green: green;
+}
+
+/* color pallete */
+/* blue #9ED2DB */
+/* orange #ED950B */
+/* yellow #EEC744 */
+/* light green #578824 */
+/* dark green #11480A */
+
+
+/* hanberger drop down menu */
+
+.fa-bars {
+  color: white;
+  font-size: 50px;
+}
+.dropdown-menu {
+  background-color: orange;
+  border: none;
+}
+.dropdown-item:hover {
+  background-color: orange;
+  color: white;
+}
+
+.targetWholeNavBar {
+  background-color: transparent;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 1;
+  padding-left: 30px;
+  transition: all 1s;
+}
+/* target text link on av bar */
+.nav-link {
+  color: white;
+  font-size: 20px;
+  margin: 0px 5px;
+}
+.nav-link:hover {
+  color: var(--orange);
+}
+/* .targetWholeNavBar:hover {
+  background-color: var(--orange);
+} */
+.custumClass-BigHero {
+  margin-top: -200px;
+  width: 100%;
+}
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+.targetLogo img {
+  width: 100px;
+}
+/* below target text on big hero goodness --child*/
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 45%;
+  text-align: left;
+}
+.carousel-caption h1 {
+  font-size: 30px;
+}
+.carousel-caption h2 {
+  font-size: 30px;
+}
+.carousel-caption p {
+  font-size: 20px;
+}
+/* parent  carousal item*/
+.carousel-item {
+  position: relative;
+  /* parent */
+}
+
+.buttonCourasel {
+  background-color: var(--green);
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+.section2 {
+  margin-top: 30px;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 h5 {
+  margin-bottom: 15px;
+}
+.section2 h2 {
+  margin-bottom: 15px;
+}
+.section2 p {
+  margin-bottom: 15px;
+  width: 70%;
+}
+
+/* section movie */
+.movie iframe {
+  width: 70%;
+  height: 60vh;
+  display: block;
+  margin: 30px auto;
+}
+.section3FullImage {
+  background-image: url('https://images.pexels.com/photos/5078730/pexels-photo-5078730.jpeg?auto=compress&cs=tinysrgb&w=800');
+  height: 60vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  position: relative;
+}
+
+.boxOverLap {
+  padding: 20px 30px;
+  width: 70%;
+  height: 300px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: absolute;
+  z-index: 2;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* //transform x left and right perfect center */
+  display: flex;
+  align-items: center;
+}
+.targetEachCol img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: auto;
+
+}
+.targetEachCol {
+  display: flex;
+}
+.targetEachCol h2 {
+  font-size: 50px;
+}
+.targetrecycleImg {
+  width: 80px !important;
+  height: 80px !important;
+margin-top: 20px!important;
+margin-bottom: 20px !important;
+
+}
+/* section4 3 gridBox */
+.mainSection4 {
+  text-align: center;
+  padding: 80px 0px;
+}
+.mainSection4 p {
+  width: 70%;
+  margin: 30px auto;
+}
+
+/* accordion section  */
+.mainFQASection h2{
+  text-align: center;
+  padding: 20px 0px;
+
+}
+/* .accordion-button{
+  background-color:!important;
+} */
+
+/* remove cell around FQA below */
+.mainFQASection button:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  }
+.accordion-item{
+  border: none;
+}
+#accordionExample{
+  color: green;
+}
+
+/* accordiaon collap and not collape change text color on the long button */
+
+    .accordion-button.collapsed {
+      background-color: #EDDCC0; /* Desired background color when collapsed */
+      color: #4e2e0f;              /* Desired text color when collapsed */
+      border: none;              /* Optional: remove border */
+    }
+    
+    /* Change the background and text color when the accordion is expanded */
+    .accordion-button:not(.collapsed) {
+      background-color: #EDDCC0; /* Desired background color when expanded */
+      color: green;              /* Desired text color when expanded */
+      border: none;              /* Optional: remove border */
+    }
+
+/* 3 gridBox section 4 */
+.customClassCol img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+/* text answer accordion */
+.accordion-collapse{
+  color:black;
+}
+
+
+/* footer */
+footer {
+  background-color: #2c2c2c;
+  padding: 30px 0px;
+}
+.logoSection img {
+  width: 40%;
+  margin-left: 70px;
+}
+.middleSection-footer {
+  color: white;
+
+  padding-left: 70px;
+}
+/* remove dot dot */
+.middleSection-footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+/* remove underline from a tag */
+.middleSection-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.middleSection-footer a:hover {
+  color: yellow;
+}
+.middleSection-footer ul li {
+  margin: 5px 0px;
+}
+
+.middleSection-footer h2 {
+text-align: left;
+} 
+.targetSocialIcon {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBoxSocial {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+/* copyRight */
+footer small {
+  color: white;
+  text-align: center;
+  display: block;
+  margin-left: -60px;
+  margin-top: 30px;
+  border-top: 1px solid white;
+  padding-top: 20px;
+}
+
+/* ipad pro */
+@media screen and (max-width: 1024px) {
+  /* big hero slide */
+  .carousel-caption {
+display: none;
+  }
+  .carousel-item img {
+    height: 40vh;
+  }
+  /* section 2 text celebrate */
+  .section2 {
+    height: 30vh;
+  }
+  .movie iframe {
+    height: 40vh;
+  }
+  .targetEachCol img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0;
+  
+  }
+  .section2 {
+    height: 25vh;
+  }
+  .section3FullImage {
+   
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    position: relative;
+  }
+  
+}
+
+
+/* medium device */
+@media screen and (max-width: 990px) {
+  .targetWholeNavBar {
+    background-color: orange;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 10;
+    padding-left: 30px;
+    height: auto;
+  }
+  .carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+  }
+  /* hide text on slider when on ipad and iphone size */
+  .carousel-caption {
+display: none;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    color: white;
+    opacity: 1;
+    margin-top: 100px;
+  }
+  .section2 {
+    height: 20vh;
+  }
+  .movie iframe {
+    width: 80%;
+    height: 50vh;
+  }
+  .boxOverLap {
+    width: 90%;
+  }
+  .targetEachCol img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .targetrecycleImg {
+    width: 60px !important;
+    height: 60px !important;
+  margin-top: 0px!important;
+
+  
+  }
+  .section3FullImage {
+    height: 50vh;
+  }
+  .mainSection4 {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  .logoSection img {
+    width: 30%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  .mainBoxSocial {
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  .nav-link:hover {
+    color: var(--green);
+  }
+  .dropdown-item{
+    font-size: 20px;
+    color: white;
+  }
+}
+
+/* phone */
+@media screen and (max-width: 600px) {
+  /* hamberger dropdown menu */
+  .fa-bars {
+    font-size: 35px;
+  }
+  .targetLogo img {
+    width: 100px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+  }
+  .section2 {
+    height: 30vh;
+  }
+
+  .section2 h5 {
+    margin-bottom: 15px;
+  }
+  .section2 h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+ 
+  /* learn more button */
+  .section2 button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .movie iframe {
+    width: 80%;
+    height: 40vh;
+  }
+
+.boxOverLap {
+  height: auto;
+  padding: 20px;
+}
+.section3FullImage {
+ background: none;
+  height: 40vh;
+  margin-top: 200px;
+}
+.mainSection4 p {
+  width: 80%;
+  margin: 30px auto;
+}
+.mainSection4 button {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+/* 3 gridBox section 4 */
+.customClassCol img {
+  width: 100%;
+  height: 300px;
+
+}
+.textandPercentage{
+  display: flex;
+  flex-direction: column;
+  
+}
+.targetEachCol{
+  width: 100%!important;
+}
+.targetEachCol img {
+  margin: auto;
+}
+.mainSection4 {
+margin-top: 120px;
+
+}
+
+}

@@ -1,0 +1,215 @@
+.bighero-products {
+  margin-top: -200px;
+  width: 100%;
+  height: 80vh;
+  background-color: #01a16c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.bighero-products h1 {
+  font-size: 50px;
+}
+/* section 1 mix images and  boxes */
+.wrapper {
+  background-image: url('https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JhbmdlJTIwZnJ1aXR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=800&q=60');
+  width: 70%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* relative is parent */
+  margin: auto;
+  margin-top: -150px;
+  z-index: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* smallBoxes inside background */
+.firstSection {
+  width: 500px;
+  padding: 80px 0px 0px 80px;
+}
+.firstSection h2 {
+  color: white;
+  font-size: 50px;
+}
+.orangeBoxSection {
+  width: 300px;
+  background-color: #f8f9f9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+  padding: 20px;
+}
+.orangeBoxSection img {
+  width: 90%;
+}
+.orangeDrink {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 400px;
+}
+.orangeDrink img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blackText {
+  width: 300px;
+  background-color: #36454f;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 400px;
+  padding: 30px;
+}
+.where2buyButton {
+  background-color: yellow;
+  color: green;
+  padding: 15px 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+}
+/* this h2 show only phone size and hid fro big device */
+.controlH2Honey_OceanOrange{
+display: none;
+}
+
+/* slider honey orange css */
+.wrapper-carousel{
+  width: 70%;
+  margin: auto;
+  height: 500px;
+  margin-top: 100px;
+  
+}
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .controlTextCarousel{
+    padding: 50px;
+  }
+  .controlImageCarousel img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* carousel button */
+  .flickity-button-icon {
+  fill: darkgreen!important;
+}
+.flickity-page-dots .dot.is-selected {
+  background:darkgreen!important;
+}
+
+/* end courausel */
+
+/* start section 3 - freshCut */
+
+  .mainSec3FreshCut{
+background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+width: 70%;
+margin: auto;
+text-align: center;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+  }
+  .mainSec3FreshCut p{
+    width: 50%;
+  }
+/* ipad */
+@media screen and (max-width:990px) {
+  .bighero-products {
+    height: 60vh;
+  }
+  .wrapper {
+    width: 90%;
+    margin-top: -250px;
+  }
+  .firstSection {
+    width: 500px;
+    padding: 80px 0px 0px 60px;
+  }
+  /* slider honey orange css */
+.wrapper-carousel{
+  width: 90%; 
+}
+.mainSec3FreshCut{
+  width: 90%;
+
+    }
+
+}
+ /* iphone */
+ @media screen and (max-width:600px) {
+  .wrapper {
+  display: none;
+  }
+  .bighero-products {
+text-align: center;
+padding: 0px 20px;
+  }
+  .bighero-products h1 {
+    font-size: 30px;
+    margin-top: 140px;
+  }
+  .carousel-cell {
+    width: 103%!important;
+  }
+  .mainSec3FreshCut{
+    height: 350px;
+  }
+  .mainSec3FreshCut p{
+    width: 70%;
+  }
+
+  #honeyOrangeSection{
+    background-image: url("https://images.unsplash.com/photo-1607781143315-c87bebec1452?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
+height:350px ;
+background-size: cover;
+margin-bottom:100px;
+margin-top: 0px;
+  }
+  #OceanOrange{
+background-image: url("https://cdn.pixabay.com/photo/2022/12/21/12/33/orange-7669963_1280.jpg");
+height:350px ;
+background-size: cover;
+margin-bottom: 20px;
+margin-top: 0px;
+  }
+
+.carousel {
+display: none;
+  }
+  .controlH2Honey_OceanOrange{
+    text-align: center;
+    margin: 30px 0px;
+    display: block;
+    /* dispaly block means unhide from display none */
+  }
+ }
