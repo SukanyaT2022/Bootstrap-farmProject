@@ -61,6 +61,10 @@
   color: green;
 }
 /* social media messenger */
+.wrapMessengerIcon {
+  display: flex;
+
+}
 .wrapMessengerIcon i {
   font-size: 45px !important;
   margin-right: 20px;
