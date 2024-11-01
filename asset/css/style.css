@@ -253,12 +253,18 @@ footer {
 .middleSection-footer {
   color: white;
 
-  padding-left: 70px;
+
+  padding-left: 0px;
 }
 /* remove dot dot */
 .middleSection-footer ul {
   list-style: none;
   padding-left: 0;
+  display: flex;
+
+align-items: center;
+height: 100%;
+  
 }
 /* remove underline from a tag */
 .middleSection-footer a {
@@ -270,12 +276,14 @@ footer {
   color: yellow;
 }
 .middleSection-footer ul li {
-  margin: 5px 0px;
+  margin: 5px 5px;
+  /* border-left: 1px solid white; */
+  padding-right: 10px;
+
+
 }
 
-.middleSection-footer h2 {
-text-align: left;
-} 
+
 .targetSocialIcon {
   color: black;
   font-size: 20px;
