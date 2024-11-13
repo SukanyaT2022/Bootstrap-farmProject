@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +13,9 @@ body {
 h1,
 h2,
 h5 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 :root {
   --orange: orange;
@@ -82,7 +83,11 @@ h5 {
   top: 40%;
   left: 10%;
   width: 45%;
+  max-height: 270px;
+  height: auto;
   text-align: left;
+  background-color: #366644ca;
+  padding: 20px;
 }
 .carousel-caption h1 {
   font-size: 30px;
@@ -100,7 +105,7 @@ h5 {
 }
 
 .buttonCourasel {
-  background-color: var(--green);
+  background-color:  #065527;
   color: white;
   border: none;
   padding: 15px 25px;

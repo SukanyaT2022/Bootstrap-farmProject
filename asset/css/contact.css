@@ -75,11 +75,16 @@
   height: 200px;
 }
 .controlButton {
-  background-color: green;
-  padding: 10px 30px;
+  background-color:  #065527;
+  padding: 10px 50px;
   border-radius: 30px;
+  border: none;
   display: block;
   margin: 30px auto 30px auto;
+}
+.controlButton:hover{
+  background-color: orange;
+
 }
 .contactForm input,
 .contactForm textarea {
