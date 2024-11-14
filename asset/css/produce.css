@@ -93,7 +93,6 @@
 .controlH2Honey_OceanOrange {
   display: none;
 }
-
 /* slider honey orange css */
 .wrapper-carousel {
   width: 70%;
@@ -120,7 +119,6 @@
   width: 100%;
   height: 100%;
 }
-
 /* carousel button */
 .flickity-button-icon {
   fill: darkgreen !important;
@@ -147,7 +145,6 @@
   justify-content: center;
   flex-direction: column;
   background-position: center center;
- 
 }
 .mainSec3FreshCut p {
 width: 90%;
@@ -207,7 +204,6 @@ margin: auto;
   .bighero-products {
     margin-top: -140px;
     height: 50vh;
-  
   }
   .bighero-products h1 {
     font-size: 30px;
@@ -217,10 +213,9 @@ margin: auto;
     width: 103% !important;
   }
   .wrapper-carousel {
-    width: 70%;
+    width: 90%;
     margin: auto;
     height: 300px;
-    margin-top: 50px;
   }
   .mainSec3FreshCut {
     height: 350px;
@@ -236,7 +231,7 @@ font-size: 18px;
     background-image: url("https://images.unsplash.com/photo-1607781143315-c87bebec1452?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
     height: 350px;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 0px;
   }
   #OceanOrange {
