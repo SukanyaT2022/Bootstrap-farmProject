@@ -1,5 +1,5 @@
 .bighero-products {
-  margin-top: -200px;
+  margin-top: -250px;
   width: 100%;
   height: 80vh;
   background-color: #01a16c;
@@ -15,7 +15,7 @@
 }
 /* section 1 mix images and  boxes */
 .wrapper {
-  background-image: url('https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JhbmdlJTIwZnJ1aXR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=800&q=60');
+  background-image: url("https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JhbmdlJTIwZnJ1aXR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=800&q=60");
   width: 70%;
   height: 800px;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   bottom: 0;
   left: 0;
   height: 400px;
-  padding: 20px;
+  padding: 30px;
 }
 .orangeBoxSection img {
   width: 90%;
@@ -70,9 +70,19 @@
   right: 0;
   height: 400px;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blackText h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.blackText p {
+  font-size: 16px;
 }
 .where2buyButton {
-  background-color:  #065527;
+  background-color: #065527;
   color: white;
   border: none;
   padding: 15px 25px;
@@ -80,72 +90,89 @@
   font-size: 20px;
 }
 /* this h2 show only phone size and hid fro big device */
-.controlH2Honey_OceanOrange{
-display: none;
+.controlH2Honey_OceanOrange {
+  display: none;
 }
 
 /* slider honey orange css */
-.wrapper-carousel{
+.wrapper-carousel {
   width: 70%;
   margin: auto;
-  height: 500px;
+  height: 400px;
   margin-top: 100px;
-  
 }
 .carousel {
-    background: #EEE;
-  }
-  
-  .carousel-cell {
-    width: 50%;
-    height: 400px;
-    margin-right: 10px;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-  }
-  .controlTextCarousel{
-    padding: 50px;
-  }
-  .controlImageCarousel img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
+  background: #eee;
+}
 
-  /* carousel button */
-  .flickity-button-icon {
-  fill: darkgreen!important;
+.carousel-cell {
+  width: 50%;
+  height: 400px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+.controlTextCarousel {
+  padding: 50px;
+}
+.controlImageCarousel img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* carousel button */
+.flickity-button-icon {
+  fill: darkgreen !important;
 }
 .flickity-page-dots .dot.is-selected {
-  background:darkgreen!important;
+  background: darkgreen !important;
 }
 
 /* end courausel */
 
 /* start section 3 - freshCut */
 
-  .mainSec3FreshCut{
-background-image: url('https://images.unsplash.com/photo-1528580152190-66d551db2e06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
-background-size: cover;
-background-repeat: no-repeat;
-height: 500px;
-width: 70%;
+.mainSec3FreshCut {
+  background-image: url("/asset/image/durian_farm.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 70%;
+  margin: 100px auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center center;
+ 
+}
+.mainSec3FreshCut p {
+width: 90%;
 margin: auto;
-text-align: center;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+ 
+}
+.wrapH2andPDurian{
+  background-color: #366644ca;
+  width: 80%;
+  padding: 30px;
 
-  }
-  .mainSec3FreshCut p{
-    width: 50%;
-  }
+}
 /* ipad */
-@media screen and (max-width:990px) {
+@media screen and (max-width: 990px) {
   .bighero-products {
-    height: 60vh;
+    height: 70vh;
+  }
+  .bighero-products p {
+    text-align: center;
+    width: 80%;
+  }
+  .firstSection h2 {
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 20px;
   }
   .wrapper {
     width: 90%;
@@ -156,60 +183,77 @@ flex-direction: column;
     padding: 80px 0px 0px 60px;
   }
   /* slider honey orange css */
-.wrapper-carousel{
-  width: 90%; 
-}
-.mainSec3FreshCut{
-  width: 90%;
+  .wrapper-carousel {
+    width: 90%;
+    height: 500px;
+  }
+  .controlTextCarousel {
+    padding: 50px;
+    height: 500px;
+  }
 
-    }
-
+  .carousel-cell {
+    height: 500px;
+  }
+  .mainSec3FreshCut {
+    width: 90%;
+  }
 }
- /* iphone */
- @media screen and (max-width:600px) {
+/* iphone */
+@media screen and (max-width: 600px) {
   .wrapper {
-  display: none;
+    display: none;
   }
   .bighero-products {
-text-align: center;
-padding: 0px 20px;
+    margin-top: -140px;
+    height: 50vh;
+  
   }
   .bighero-products h1 {
     font-size: 30px;
     margin-top: 140px;
   }
   .carousel-cell {
-    width: 103%!important;
+    width: 103% !important;
   }
-  .mainSec3FreshCut{
+  .wrapper-carousel {
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    margin-top: 50px;
+  }
+  .mainSec3FreshCut {
     height: 350px;
   }
-  .mainSec3FreshCut p{
-    width: 70%;
-  }
-
-  #honeyOrangeSection{
-    background-image: url("https://images.unsplash.com/photo-1607781143315-c87bebec1452?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
-height:350px ;
-background-size: cover;
-margin-bottom:100px;
-margin-top: 0px;
-  }
-  #OceanOrange{
-background-image: url("https://cdn.pixabay.com/photo/2022/12/21/12/33/orange-7669963_1280.jpg");
-height:350px ;
-background-size: cover;
-margin-bottom: 20px;
-margin-top: 0px;
-  }
-
-.carousel {
+  .mainSec3FreshCut p {
 display: none;
   }
-  .controlH2Honey_OceanOrange{
+  .mainSec3FreshCut h2 {
+font-size: 18px;
+      }
+
+  #honeyOrangeSection {
+    background-image: url("https://images.unsplash.com/photo-1607781143315-c87bebec1452?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JhbmdlJTIwZmFybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    height: 350px;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+  #OceanOrange {
+    background-image: url("https://cdn.pixabay.com/photo/2022/12/21/12/33/orange-7669963_1280.jpg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .carousel {
+    display: none;
+  }
+  .controlH2Honey_OceanOrange {
     text-align: center;
     margin: 30px 0px;
     display: block;
     /* dispaly block means unhide from display none */
   }
- }
+}
