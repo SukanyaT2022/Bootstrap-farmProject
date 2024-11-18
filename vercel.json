@@ -6,23 +6,8 @@
         "permanent": true
       },
       {
-        "source": "/(.*).html",
-        "destination": "/$1",
-        "permanent": true
-      },
-      {
-        "source": "http://www.koonmow.com/:path*",
-        "destination": "https://koonmow.com/:path*",
-        "permanent": true
-      },
-  {
-        "source": "https://www.koonmow.com/:path*",
-        "destination": "https://koonmow.com/:path*",
-        "permanent": true
-      },
-      {
-        "source": "http://koonmow.com/:path*",
-        "destination": "https://koonmow.com/:path*",
+        "source": "/:path*.html",
+        "destination": "/:path*",
         "permanent": true
       }
     ]
