@@ -10,5 +10,12 @@
         "destination": "/:path*",
         "permanent": true
       }
+    ],
+    "rewrites": [
+      {
+        "source": "/:path*.html",
+        "destination": "/:path*"
+      }
     ]
   }
+  
