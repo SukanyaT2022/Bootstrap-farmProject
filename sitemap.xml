@@ -9,27 +9,23 @@
 
 
 <url>
-  <loc>https://www.koonmow.com/</loc>
+  <loc>https://www.koonmow.com</loc>
   <lastmod>2024-11-18</lastmod>
   <changefreq>daily</changefreq> 
 </url>
+
 <url>
-  <loc>https://www.koonmow.com/index.html</loc>
+  <loc>https://www.koonmow.com/aboutUs</loc>
   <lastmod>2024-11-18</lastmod>
  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://www.koonmow.com/aboutUs.html</loc>
+  <loc>https://www.koonmow.com/produce</loc>
   <lastmod>2024-11-18</lastmod>
  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>https://www.koonmow.com/produce.html</loc>
-  <lastmod>2024-11-18</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>https://www.koonmow.com/contact.html</loc>
+  <loc>https://www.koonmow.com/contact</loc>
   <lastmod>2024-11-18</lastmod>
  <changefreq>daily</changefreq>
 </url>
