@@ -6,8 +6,8 @@
         "permanent": true
       },
       {
-        "source": "/:path(.+).html",
-        "destination": "/:path",
+        "source": "/(.*).html",
+        "destination": "/$1",
         "permanent": true
       },
       {
