@@ -144,7 +144,7 @@ h5 {
   margin: 30px auto;
 }
 .section3FullImage {
-  background-image: url("/asset/image/300_sainampueng_orange_chiangmai_thailand_farmer_local.jpg");
+  /* background-image: url("/asset/image/300_sainampueng_orange_chiangmai_thailand_farmer_local.jpg"); */
   height: 60vh;
   background-size: cover;
   background-position: center center;
