@@ -44,7 +44,7 @@
 
 </head>
 
-rre<body>
+<body>
   <nav class="navbar navbar-expand-lg targetWholeNavBar">
     <div class="container-fluid">
       <!-- below is logo -->
@@ -165,12 +165,24 @@ rre<body>
     <a href="contact.html"><button class="buttonCourasel">Contact Us</button></a>
   </div>
 
-  <div class="movie">
+  <!-- <div class="movie">
     <iframe src="https://www.youtube.com/embed/itq9mqTItms?si=N4_yYGENwvSMFR3D" title="YouTube video player"
       frameborder="0" rel="preload"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
-  </div>
+  </div> -->
+
+<div class="movie" data-id="itq9mqTItms">
+  <img 
+    src="https://img.youtube.com/vi/itq9mqTItms/hqdefault.jpg" 
+    alt="YouTube Thumbnail" 
+    loading="lazy" 
+    width="560" 
+    height="400"
+ 
+  >
+  <button class="play-button" aria-label="Play Video">▶</button>
+</div>
 
 
   <!-- start section 3 - percentafe 3 box -->
@@ -232,11 +244,11 @@ rre<body>
           <img src="/asset/image/Export-quality_ oranges_Chiangmai.jpg" alt="Orange Farm in Chiang Mai"  />
         </div>
         <div class="col customClassCol">
-          <img src="/asset/image/buy_monthng_durian_chiangmai_thailand.jpg" alt="buy fresh oranges in Chiang Mai"   />
+          <img src="/asset/image/fresh_sainampeung_orange_chiangmai_thailand.jpg" alt="buy fresh oranges in Chiang Mai"   />
         </div>
         <div class="col customClassCol">
           <img
-            src="/asset/image/fresh_sainampeung_orange_chiangmai_thailand.jpg" alt="Premium orange suppliers Chiangmai"   />
+            src="/asset/image/Monthong-durian-chiangmai-wholesale-farmer-localfarm.jpg" alt="Premium orange suppliers Chiangmai"   />
         </div>
       </div>
     </div>
@@ -389,6 +401,26 @@ rre<body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+
+<!-- chat gpt google spped optimize movie section -->
+<script>
+  document.querySelectorAll('.movie').forEach(movie => {
+    movie.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${movie.dataset.id}?autoplay=1`;
+      iframe.title = "YouTube video player";
+      // iframe.width = "560";
+      // iframe.height = "315";
+      iframe.width = "1000";
+      iframe.height = "400";
+      iframe.frameBorder = "0";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      movie.innerHTML = ''; // Clear the placeholder content
+      movie.appendChild(iframe); // Add the YouTube iframe
+    });
+  });
+</script>
 </body>
 
 </html>
