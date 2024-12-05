@@ -168,28 +168,28 @@
   </div>
 
   <!-- <div class="movie">
-    <iframe src="https://www.youtube.com/embed/itq9mqTItms?si=N4_yYGENwvSMFR3D" title="YouTube video player"
-      frameborder="0" rel="preload"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
   </div> -->
-
-<div class="movie" data-id="itq9mqTItms">
-  <img 
+  
+  <div class="movie" data-id="itq9mqTItms">
+    <!-- <img 
     src="https://img.youtube.com/vi/itq9mqTItms/hqdefault.jpg" 
     alt="YouTube Thumbnail" 
     loading="lazy" 
     width="560" 
     height="400"
- 
-  >
-  <button class="play-button" aria-label="Play Video">▶</button>
+    >
+    <button class="play-button" aria-label="Play Video">▶</button> -->
+    <iframe src="https://www.youtube.com/embed/itq9mqTItms?si=N4_yYGENwvSMFR3D" title="YouTube video player"
+      frameborder="0" rel="preload"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  
 </div>
 
 
   <!-- start section 3 - percentafe 3 box -->
 
-  <div class="section3FullImage">
+
     <div class="boxOverLap">
       <div class="row row-cols-1 row-cols-md-3 g-4">
 
@@ -227,7 +227,7 @@
         </div>
       </div>
     </div>
-  </div>
+
   <!-- end section 3 box over lap-->
 
   <!-- section4 -->
@@ -240,7 +240,7 @@
     <a href="produce.html"><button class="buttonCourasel">See All Products</button></a>
 
     <!-- 3gridBox -->
-    <div class="container text-center mt-5">
+    <div class="container text-center  allProductContainer">
       <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 g-4">
         <div class="col customClassCol">
           <img src="/asset/image/Export-quality_ oranges_Chiangmai.jpg" alt="Orange Farm in Chiang Mai"  />
@@ -405,7 +405,7 @@
     crossorigin="anonymous"></script>
 
 <!-- chat gpt google spped optimize movie section -->
-<script>
+<!-- <script>
   document.querySelectorAll('.movie').forEach(movie => {
     movie.addEventListener('click', () => {
       const iframe = document.createElement('iframe');
@@ -422,7 +422,7 @@
       movie.appendChild(iframe); // Add the YouTube iframe
     });
   });
-</script>
+</script> -->
 </body>
 
 </html>
