@@ -105,7 +105,6 @@ h5 {
   position: relative;
   /* parent */
 }
-
 .buttonCourasel {
   background-color:  #065527;
   color: white;
@@ -123,7 +122,6 @@ h5 {
   align-items: center;
   justify-content: center;
 }
-
 .section2 h5 {
   margin-bottom: 15px;
 }
@@ -134,15 +132,6 @@ h5 {
   margin-bottom: 15px;
   width: 70%;
 }
-
-/* section movie */
-.movie iframe {
-  width: 75%;
-  height: 60vh;
-  display: block;
-  margin: 30px auto;
-}
-
 .boxOverLap {
   padding: 20px 30px;
   width: 75%;
@@ -151,7 +140,7 @@ h5 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   align-items: center;
-  margin: 230px auto 0px auto;
+  margin: 120px auto 0px auto;
 }
 .targetEachCol img {
   width: 120px;
@@ -305,14 +294,19 @@ footer small {
 /* chat gpt for movie section below */
 .movie {
   position: relative;
-  /* width: 1000px;  */
-  /* Adjust to your desired dimensions */
-  /* height: 315px; */
   width: 70%; 
   height: 400px;
   cursor: pointer;
   margin: auto;
 }
+/* section movie this from our own css */
+.movie iframe {
+  width: 75%;
+  /* height: 60vh; */
+  display: block;
+  margin: 30px auto;
+}
+
 .movie img {
   display: block;
   width: 100%;
@@ -347,12 +341,16 @@ footer small {
   .carousel-item img {
     height: 40vh;
   }
-  /* section 2 text celebrate */
+  /* section 2 text celebrate 20 year */
   .section2 {
-    height: 30vh;
+    height: 25vh;
   }
   .movie iframe {
-    height: 40vh;
+    height: 30vh;
+  }
+  /* white box  section recycle */
+  .boxOverLap {
+    margin: 120px auto 0px auto;
   }
   .targetEachCol img {
     width: 120px;
@@ -361,8 +359,20 @@ footer small {
     margin: 0;
   }
   .section2 {
-    height: 25vh;
+    height: 20vh;
   }
+  /* section4 3 gridBox 3 type our product- fruite */
+.mainSection4 {
+  padding: 70px 0px 40px 0px;
+}
+/* section 4-- 3 product all product 3 grid fruite */
+.allProductContainer{
+  margin-top: 80px;
+  }
+  /* 3 gridBox target fruites image box */
+.customClassCol img {
+  height: 350px;
+}
   .section3FullImage {
     height: 40vh;
     background-size: cover;
@@ -371,6 +381,7 @@ footer small {
     margin-top: 300px;
     position: relative;
   }
+  
 }
 
 /* medium device */
@@ -400,12 +411,26 @@ footer small {
     margin-top: 100px;
   }
   .section2 {
-    height: 20vh;
+    height: 25vh;
   }
   .movie iframe {
     width: 80%;
-    height: 50vh;
+    height: 30vh;
   }
+    /* white box  section recycle */
+    .boxOverLap {
+      margin: 70px auto 0px auto;
+    }
+
+  
+  /* .movie {
+    position: relative;
+    width: 70%; 
+    height: 400px;
+    cursor: pointer;
+    margin: auto;
+  } */
+  /* 
   .boxOverLap {
     width: 90%;
   }
@@ -463,15 +488,20 @@ padding-left: 0;
     margin-left: -20px;
     margin-bottom: 5px;
   }
+  /* celebrate 20 years section */
   .section2 {
-    height: 30vh;
+    height: 40vh;
   }
-
+  .section2 p {
+text-align: left;
+    width: 80%;
+    margin: 20px 0px;
+  }
   .section2 h5 {
     margin-bottom: 15px;
   }
   .section2 h2 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 20px;
   }
 
@@ -484,16 +514,21 @@ padding-left: 0;
     width: 80%;
     height: 40vh;
   }
-
+/* white recycle 3 box */
   .boxOverLap {
     height: auto;
     padding: 20px;
+    margin-bottom: -50px;
   }
   .section3FullImage {
     background: none;
     height: 40vh;
     margin-top: 200px;
   }
+          /* section4 3 gridBox 3 type our product- fruite */
+.mainSection4 {
+  padding: 0px 0px 40px 0px;
+}
   .mainSection4 p {
     width: 80%;
     margin: 30px auto;
