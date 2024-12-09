@@ -1,0 +1,29 @@
+
+.bighero-blog{
+    margin-top: -200px;
+    width: 100%;
+    height: 60vh;
+    background-color: #01a16c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.custumBlogCart{
+    background-color:#E9E8ED ;
+    border-radius: 30px;
+}
+.blog-readmore{
+    font-size: 20px;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(45deg,#05A398, #F7AB0F, #F45529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* blog one html */
+ .wrapper-blogOne{
+
+ }
+
