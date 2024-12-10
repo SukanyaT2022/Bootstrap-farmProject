@@ -130,13 +130,19 @@
 /* iphone */
 @media screen and (max-width: 600px) {
   .bighero-contact {
-    height: 50vh;
+    height: auto;
+    background: none;
+    color: #00A16C;
+    padding-top: 80px;
   }
   .bighero-contact h1 {
     font-size: 40px;
+    color: #00A16C;
+
   }
   .mainContact {
     flex-direction: column;
+    margin: 20px auto 50px auto;
   }
   .contactInfo {
     width: 100%;
@@ -150,7 +156,6 @@
   .imgOrangeContact {
     top: -60px;
     left: 94%;
-
     width: 35%;
   }
 }
