@@ -477,8 +477,8 @@ padding-left: 0;
 
 }
 
-/* phone */
-@media screen and (max-width: 600px) {
+/* medium device */
+@media screen and (max-width: 990px) {
   /* hamberger dropdown menu */
   .fa-bars {
     font-size: 35px;

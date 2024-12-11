@@ -61,3 +61,62 @@
   border-top-left-radius: 30px;
   transition: 1s ease-in-out;
 }
+.custumeAllRow{
+  width: 80%;
+}
+
+/* ipadpro device */
+@media screen and (max-width: 1024px) {
+  
+  .bighero-blog {
+    height: 40vh;
+  }
+  .custumeAllRow{
+    width:90%;
+  }
+  /* blog -one */
+  .wrapper-blogOne{
+    width: 70%!important;
+  }
+}
+
+/* ipad air mini medium device */
+@media screen and (max-width: 990px) {
+  .bighero-blog {
+    height: 50vh;
+    padding-top: 150px;
+
+  }
+  .custumeAllRow{
+    width:98%;
+  }
+  .custumImgBlog img{
+    height: 200px;
+  }
+}
+
+/* phone device */
+@media screen and (max-width: 600px) {
+  .bighero-blog {
+    height: auto;
+    background: none;
+    color: #00A16C;
+    padding-top: 240px;
+    background-color: white;
+  }
+  .bighero-blog h1 {
+    font-size: 40px;
+    color: #00A16C;
+  }
+  .custumeContainerBlog{
+padding-top: 0!important;
+  }
+   /* blog -one */
+   .wrapper-blogOne{
+    width: 90%!important;
+    margin: 0px auto!important;
+
+ 
+
+  }
+}
