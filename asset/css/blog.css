@@ -9,9 +9,34 @@
   flex-direction: column;
   color: white;
 }
+
+/* .mainContainer{
+width: 90%;
+margin: auto;
+display: flex;
+}
+
+.wrapper-blogOne{
+  width: 70%;
+
+}
+
+.wrapSidebar{
+  width: 30%;
+  padding: 20px;
+}
+.wrapSidebar h3{
+  text-align: center;
+} */
+.borderBlogSocial{
+  border: 2px solid orange;
+  padding: 20px;
+  margin-top: 180px;
+}
 .custumBlogCart {
   background-color: #e9e8ed;
   border-radius: 30px;
+  
 }
 .blog-readmore {
   font-size: 20px;
@@ -64,6 +89,22 @@ padding-bottom: 15px;
 .custumeAllRow{
   width: 80%;
 }
+/* blog  detail 2 page*/
+.wrap3image-blogDetail2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 400px;
+
+}
+.wrap3image-blogDetail2 img{
+width: 25%;
+height: 200px;
+object-fit: cover;
+margin: 10px;
+}
+
 
 /* ipadpro device */
 @media screen and (max-width: 1024px) {
