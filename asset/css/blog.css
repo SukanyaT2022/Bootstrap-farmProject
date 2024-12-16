@@ -1,3 +1,12 @@
+.custumeBGNavbar{
+background-color:#FFA500;
+border-radius: 0;
+height: auto;
+margin: 0;
+padding: 20px;
+
+}
+
 .bighero-blog {
   margin-top: -200px;
   width: 100%;
@@ -9,7 +18,11 @@
   flex-direction: column;
   color: white;
 }
-
+.custumeImgBlog3{
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+}
 /* .mainContainer{
 width: 90%;
 margin: auto;
@@ -36,7 +49,6 @@ display: flex;
 .custumBlogCart {
   background-color: #e9e8ed;
   border-radius: 30px;
-  
 }
 .blog-readmore {
   font-size: 20px;
@@ -46,7 +58,6 @@ display: flex;
   -webkit-text-fill-color: transparent;
 }
 
-  /* blog -top5benefit eating ornage */
 .benefit-blog-ptag{
 padding-bottom: 15px;
 }
@@ -59,7 +70,9 @@ padding-bottom: 15px;
   border-radius: 30px;
   border: none;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
- 
+  /* min-height: 500px;
+  max-height: auto; */
+height: 500px;
 }
 .custumCardBlog img {
   height: 300px;
@@ -96,7 +109,6 @@ padding-bottom: 15px;
   align-items: center;
   background-color: gray;
   height: 400px;
-
 }
 .wrap3image-blogDetail2 img{
 width: 25%;
@@ -138,6 +150,9 @@ margin: 10px;
 
 /* phone device */
 @media screen and (max-width: 600px) {
+.custumeBGNavbar{
+    padding: 10px 20px;
+  }
   .bighero-blog {
     height: auto;
     background: none;
@@ -156,8 +171,5 @@ padding-top: 0!important;
    .wrapper-blogOne{
     width: 90%!important;
     margin: 0px auto!important;
-
- 
-
   }
 }
