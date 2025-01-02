@@ -6,6 +6,9 @@ margin: 0;
 padding: 20px;
 
 }
+.custumeBGNavbar a:hover{
+  color:#0f9015;
+}
 .bighero-blog {
   width: 100%;
   display: flex;

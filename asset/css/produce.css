@@ -9,6 +9,11 @@
   flex-direction: column;
   color: white;
 }
+.bighero-products p {
+  text-align: center;
+  width:50%;
+  line-height: 25px;
+}
 
 .bighero-products h1 {
   font-size: 50px;
