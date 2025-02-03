@@ -1,15 +1,17 @@
 
 /* Google translate style */
+
+/* target the mainbox */
 #google_translate_element {
   position: absolute;
   /* bottom: calc(53px + 16px); */
   /* right: 16px!important; */
-  right:0;
-  top:10px;
+  top:15px;
   right:15px;
   z-index: 99999;
   color:white !important;
-  background-color: white;
+  /* background-color: white; */
+  width:220px;
 }
 .goog-te-gadget {
   font-family: Roboto, 'Open Sans', sans-serif!important;
@@ -62,7 +64,34 @@
     margin-right: 8px!important;
     display: none;
 }
-/* 
-.VIpgJd-ZVi9od-ORHb{
-  display:none;
-} */
+.goog-te-combo {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* background:red!important; */
+  cursor: pointer;
+}
+
+/* ipad medium air */
+@media  screen and (max-width: 992px) {
+  #google_translate_element {
+    position: absolute;
+    top:120px;
+  right:0% ;
+    z-index: 99999;
+    color:white !important;
+    /* background-color: white; */
+    width:220px;
+  }
+}
+/* ipad mini */
+@media  screen and (max-width: 768px) {
+
+}
+/* phone */
+@media  screen and (max-width: 600px) {
+
+  }
+
+  

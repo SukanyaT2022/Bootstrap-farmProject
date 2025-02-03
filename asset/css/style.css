@@ -90,6 +90,7 @@ h5 {
   text-align: left;
   background-color: #366644ca;
   padding: 20px;
+  visibility: hidden;
 }
 .carousel-caption h1 {
   font-size: 30px;
