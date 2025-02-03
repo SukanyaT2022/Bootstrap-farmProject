@@ -481,7 +481,6 @@ padding-left: 0;
   }
 
 }
-
 /* medium device */
 @media screen and (max-width: 990px) {
   /* hamberger dropdown menu */
@@ -495,7 +494,7 @@ padding-left: 0;
   }
   /* celebrate 20 years section */
   .section2 {
-    height: 40vh;
+    height: 30vh;
   }
   .section2 p {
 text-align: left;
@@ -563,4 +562,12 @@ text-align: left;
   .logoSection img {
     width: 40%;
   }
+}
+
+/* phone */
+@media screen and (max-width: 600px) {
+.section2{
+  margin-top: 80px;
+  height: 40vh;
+}
 }
