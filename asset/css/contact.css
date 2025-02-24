@@ -133,7 +133,7 @@
     height: auto;
     background: none;
     color: #00A16C;
-    padding-top: 80px;
+    padding-top: 150px;
   }
   .bighero-contact h1 {
     font-size: 40px;
@@ -152,6 +152,7 @@
   }
   .contactForm {
     width: 100%;
+    padding-top: -400px;
   }
   .imgOrangeContact {
     top: -60px;
