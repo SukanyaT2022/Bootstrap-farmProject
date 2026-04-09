@@ -8,7 +8,7 @@
 }
 html,
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 h1,
 h2,
@@ -22,6 +22,7 @@ h5 {
 :root {
   --orange: orange;
   --green: green;
+  
 }
 
 /* color pallete */
@@ -29,7 +30,7 @@ h5 {
 /* orange #ED950B */
 /* yellow #EEC744 */
 /* light green #578824 */
-/* dark green #11480A */
+
 
 /* hanberger drop down menu */
 
@@ -47,10 +48,9 @@ h5 {
 }
 
 .targetWholeNavBar {
-  background-color: transparent;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  padding-bottom: 80px;
+    /* background-color: transparent; */
+  background-color: #065527bd;
+
   position: relative;
   z-index: 1;
   padding-left: 30px;
@@ -59,7 +59,7 @@ h5 {
 /* target text link on av bar */
 .nav-link {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0px 5px;
 }
 .nav-link:hover {

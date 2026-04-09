@@ -1,13 +1,13 @@
 .custumeBGNavbar{
-background-color:#FFA500;
+ background-color: #065527bd;
 border-radius: 0;
 height: auto;
 margin: 0;
-padding: 20px;
+
 
 }
 .custumeBGNavbar a:hover{
-  color:#0f9015;
+  color:#ED950B;
 }
 .bighero-blog {
   width: 100%;
