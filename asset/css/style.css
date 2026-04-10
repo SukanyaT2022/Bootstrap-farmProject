@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +22,6 @@ h5 {
 :root {
   --orange: orange;
   --green: green;
-  
 }
 
 /* color pallete */
@@ -30,7 +29,6 @@ h5 {
 /* orange #ED950B */
 /* yellow #EEC744 */
 /* light green #578824 */
-
 
 /* hanberger drop down menu */
 
@@ -48,7 +46,7 @@ h5 {
 }
 
 .targetWholeNavBar {
-    /* background-color: transparent; */
+  /* background-color: transparent; */
   background-color: #065527bd;
 
   position: relative;
@@ -108,12 +106,16 @@ h5 {
   /* parent */
 }
 .buttonCourasel {
-  background-color:  #065527;
+  background-color: #065527;
   color: white;
   border: none;
   padding: 15px 25px;
   border-radius: 40px;
-  font-size: 20px;
+  font-size: 16px;
+}
+.buttonCourasel:hover {
+  background-color: #016f01;
+  color: white;
 }
 .section2 {
   margin-top: 30px;
@@ -168,9 +170,9 @@ h5 {
   padding: 100px 0px;
 }
 /* section 4 3 product all product 3 grid section */
-.allProductContainer{
-width: 75%;
-margin-top: 100px;
+.allProductContainer {
+  width: 75%;
+  margin-top: 100px;
 }
 .mainSection4 p {
   width: 70%;
@@ -213,12 +215,20 @@ margin-top: 100px;
   color: green; /* Desired text color when expanded */
   border: none; /* Optional: remove border */
 }
-
+.customClassCol{
+  overflow: hidden;
+    transition: transform 2s ease;
+}
 /* 3 gridBox section 4 */
 .customClassCol img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+  transition: transform 2s ease;
+
+}
+.customClassCol img:hover {
+  transform: scale(1.2);
 }
 /* text answer accordion */
 .accordion-collapse {
@@ -227,14 +237,14 @@ margin-top: 100px;
 
 /* footer */
 footer {
-  background-color: #2c2c2c;
+  background-color: #065527;
   padding: 30px 0px;
 }
 
 .logoSection img {
   width: 40%;
-margin: auto;
-display: block;
+  margin: auto;
+  display: block;
 }
 .middleSection-footer {
   color: white;
@@ -256,7 +266,7 @@ display: block;
 }
 
 .middleSection-footer a:hover {
-  color: yellow;
+  color:#FFA500;
 }
 .middleSection-footer ul li {
   margin: 5px 5px;
@@ -266,7 +276,7 @@ display: block;
 
 .targetSocialIcon {
   text-decoration: none;
-  color: black;
+  color: #065527;
   font-size: 20px;
   background-color: white;
   width: 50px;
@@ -277,12 +287,14 @@ display: block;
   align-items: center;
   justify-content: center;
 }
+.targetSocialIcon:hover{
+  color:#FFA500;
+}
 .mainBoxSocial {
   display: flex;
   align-items: flex-start;
   padding-top: 30px;
   justify-content: center;
-
 }
 /* copyRight */
 footer small {
@@ -297,7 +309,7 @@ footer small {
 /* chat gpt for movie section below */
 .movie {
   position: relative;
-  width: 70%; 
+  width: 70%;
   height: 400px;
   cursor: pointer;
   margin: auto;
@@ -334,7 +346,6 @@ footer small {
   background: rgba(0, 0, 0, 0.9);
 }
 
-
 /* ipad pro */
 @media screen and (max-width: 1024px) {
   /* big hero slide */
@@ -365,17 +376,17 @@ footer small {
     height: 20vh;
   }
   /* section4 3 gridBox 3 type our product- fruite */
-.mainSection4 {
-  padding: 70px 0px 40px 0px;
-}
-/* section 4-- 3 product all product 3 grid fruite */
-.allProductContainer{
-  margin-top: 80px;
+  .mainSection4 {
+    padding: 70px 0px 40px 0px;
+  }
+  /* section 4-- 3 product all product 3 grid fruite */
+  .allProductContainer {
+    margin-top: 80px;
   }
   /* 3 gridBox target fruites image box */
-.customClassCol img {
-  height: 350px;
-}
+  .customClassCol img {
+    height: 350px;
+  }
   .section3FullImage {
     height: 40vh;
     background-size: cover;
@@ -384,13 +395,11 @@ footer small {
     margin-top: 300px;
     position: relative;
   }
-  
 }
 
 /* medium device */
 @media screen and (max-width: 990px) {
   .targetWholeNavBar {
-    background-color: orange;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     padding-bottom: 0px;
@@ -420,16 +429,14 @@ footer small {
     width: 80%;
     height: 30vh;
   }
-    /* white box  section recycle */
-    .boxOverLap {
-      margin: 70px auto 0px auto;
-    }
+  /* white box  section recycle */
+  .boxOverLap {
+    margin: 70px auto 0px auto;
+  }
   /* footer */
   .middleSection-footer ul {
- justify-content: center;
-
+    justify-content: center;
   }
-
 }
 /* medium device */
 @media screen and (max-width: 990px) {
@@ -447,7 +454,7 @@ footer small {
     height: 30vh;
   }
   .section2 p {
-text-align: left;
+    text-align: left;
     width: 80%;
     margin: 20px 0px;
   }
@@ -468,7 +475,7 @@ text-align: left;
     width: 80%;
     height: 40vh;
   }
-/* white recycle 3 box */
+  /* white recycle 3 box */
   .boxOverLap {
     height: auto;
     padding: 20px;
@@ -479,10 +486,10 @@ text-align: left;
     height: 40vh;
     margin-top: 200px;
   }
-          /* section4 3 gridBox 3 type our product- fruite */
-.mainSection4 {
-  padding: 0px 0px 40px 0px;
-}
+  /* section4 3 gridBox 3 type our product- fruite */
+  .mainSection4 {
+    padding: 0px 0px 40px 0px;
+  }
   .mainSection4 p {
     width: 80%;
     margin: 30px auto;
@@ -516,8 +523,10 @@ text-align: left;
 
 /* phone */
 @media screen and (max-width: 600px) {
-.section2{
-  margin-top: 40px;
-  height: 40vh;
-}
+  .section2 {
+    margin-top: 40px;
+    height: 40vh;
+ 
+  }
+
 }
